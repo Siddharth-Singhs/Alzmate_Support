@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.alzmate_client.Model.HomeFragment">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/patient_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Reminder For Patient Today"
+                    android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/event_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_below="@id/patient_name">
+
+        </ListView>
+                <Button
+                    android:id="@+id/bfab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:text="Add"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp"
+                    />
+    </RelativeLayout>
+
+</FrameLayout>

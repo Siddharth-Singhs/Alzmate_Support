@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.alzmate_client.Model.CameraFragment">
+
+    <LinearLayout
+        android:id="@+id/group_picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/person_image_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Three Image of Person to train"
+            android:paddingBottom="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/image_detect_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:padding="8dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/camera_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:layout_weight="2"/>
+            <Button
+                android:id="@+id/train_face_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train_Face"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
