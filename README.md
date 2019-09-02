@@ -12,7 +12,7 @@ We used Android for development of app and Firebase for database purposes. For f
 ### Challenges we ran into
 There were many challenges faced: 
 <br> 1.Many challenges were regarding android. From crashes to making up camera work. To make framelayout smooth and make user experience better. </br>
-<br> 2.There was problem regrading faceapi, we couldn't get it to authenticate using token. But somehow we made it work. </br>
+2.There was problem regrading faceapi, we couldn't get it to authenticate using token. But somehow we made it work. 
 
 ### Accomplishments that we're proud of
 This app itself is the accomplishment that we are proud of. We want to make something that could really help patients with alzheimer. To some extent we have done a good job.
